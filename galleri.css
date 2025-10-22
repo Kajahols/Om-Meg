@@ -33,11 +33,11 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 80vh;
+    margin-top: 10px;
 }
 
 .familie {
-    width: 90%;
-    max-width: 1000px;
+    width: 85%;
     background-color: white;
     border-radius: 20px;
     padding: 20px;
@@ -54,7 +54,9 @@ main {
 }
 
 .container div {
+    overflow: hidden;
     border-radius: 20px;
+    position: relative;
 }
 
 img {
@@ -83,5 +85,5 @@ img:hover {
 }
 
 .rekke {
-    grid-column: 1/5;
+    grid-column: 1 / -1;
 }
