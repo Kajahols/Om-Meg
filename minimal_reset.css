@@ -1,0 +1,35 @@
+/* minimal CSS reset */
+/* Universal box-sizing for easier layout calculations */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styling */
+ul, ol {
+  list-style: none;
+}
+
+/* Make images and other media responsive */
+img, picture, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Optional: removes extra space below inline images */
+}
+
+/* Inherit font styles for form elements */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Remove default link underlines and inherit color */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* END minimal CSS reset */

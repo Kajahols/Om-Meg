@@ -1,10 +1,13 @@
+body {
+    background-color: rgba(143, 199, 217, 0.273);
+}
 
 .meny {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-color: lightblue;
+    background-color: rgb(143, 198, 217);
     height: 100px;
 }
 
@@ -23,6 +26,3 @@
     color: white;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
 }
-
-
-
