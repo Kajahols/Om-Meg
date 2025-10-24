@@ -1,30 +1,7 @@
 body {
     background-color: rgba(96, 156, 202, 0.379);
 }
-.meny {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    background-color: rgb(96, 156, 202);
-    height: 100px;
-}
 
-.meny > div {
-    display: flex;
-    gap: 20px;
-}
-
-.meny h1 {
-    color: white;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
-}
-.meny > div a {
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
-}
 
 #Om_meg {
     height: 600px;
