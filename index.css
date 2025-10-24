@@ -1,4 +1,6 @@
-
+body {
+    background-color: rgba(88, 175, 255, 0.66);
+}
 .meny {
     display: flex;
     justify-content: space-between;
@@ -24,5 +26,18 @@
     text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
 }
 
+#Om_meg {
+    height: 500px;
+    background-color: white;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+footer p {
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    background-color: rgb(96, 156, 202);
+}
 
 
