@@ -1,3 +1,16 @@
+#forsiden {
+    background-image: url(Bilder/skole/nadderud.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #timeplan {
     display: flex;
     justify-content: center;
