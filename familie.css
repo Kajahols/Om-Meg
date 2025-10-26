@@ -129,5 +129,10 @@
     font-size: 25px;
 }
 
+.koda {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
 
 
