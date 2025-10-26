@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,15 @@
     <link rel="stylesheet" href="minimal_reset.css">
     <link rel="stylesheet" href="index.css">
 
-    
+
 </head>
+
 <body>
     <header>
         <div class="meny">
-            <a href="index.html"><h1>Kaja</h1></a>
+            <a href="index.html">
+                <h1>Kaja</h1>
+            </a>
             <div>
                 <a href="familie.html">Familie</a>
                 <a href="venner.html">Venner</a>
@@ -30,15 +34,15 @@
                 <img src="Bilder/familie/lille_meg4.jpg" alt="">
                 <div>
                     <h2>Om meg:</h2>
-                    <p>Hei! Jeg heter Kaja, og jeg er 18 år gammel. Jeg går i tredje klasse 
-                        på Nadderud videregående skole og bor på Jar sammen med familien min – mamma, 
-                        pappa, mine to brødre og hunden vår. På fritiden liker jeg å danse, være ute 
-                        i naturen, gå turer og stå på ski. Jeg er også veldig glad i å tilbringe tid 
-                        med venner. I tillegg er jeg revysjef for Nadderudrevyen, noe jeg synes er 
-                        utrolig gøy – det er både kreativt, sosialt og lærerikt. Jeg elsker også å reise 
+                    <p>Hei! Jeg heter Kaja, og jeg er 18 år gammel. Jeg går i tredje klasse
+                        på Nadderud videregående skole og bor på Jar sammen med familien min – mamma,
+                        pappa, mine to brødre og hunden vår. På fritiden liker jeg å danse, være ute
+                        i naturen, gå turer og stå på ski. Jeg er også veldig glad i å tilbringe tid
+                        med venner. I tillegg er jeg revysjef for Nadderudrevyen, noe jeg synes er
+                        utrolig gøy – det er både kreativt, sosialt og lærerikt. Jeg elsker også å reise
                         og oppleve nye steder, kulturer og mennesker.</p>
 
-                    <p>På denne nettsiden kommer du til å bli litt bedre kjent med meg, min familie, mine venner, 
+                    <p>På denne nettsiden kommer du til å bli litt bedre kjent med meg, min familie, mine venner,
                         mine interesser og fritidsaktivitetetr</p>
                 </div>
             </div>
@@ -53,16 +57,26 @@
             </div>
         </section>
 
-        <section id="venner_fritid_skole">
+        <section class="slideshow">
+            <div class="slides">
+                <img src="Bilder/venner/bunad.jpg" class="active" alt="Familietur">
+                <img src="Bilder/dans/dans.jpg" alt="På fjellet">
+                <img src="Bilder/venner/selfie.jpg" alt="Familien i skogen">
+            </div>
 
+            <div class="controls">
+                <button id="prev">❮</button>
+                <button id="next">❯</button>
+            </div>
         </section>
     </main>
 
-     <footer>
+    <footer>
         <div>
             <p>Laget av Kaja Holstrøm 2025</p>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
