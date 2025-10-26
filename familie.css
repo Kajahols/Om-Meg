@@ -70,6 +70,10 @@
 
 #hundene_mine {
     padding: 40px;
+}
+
+.hundene_mine {
+    padding: 40px;
     color: rgb(96, 156, 202);
     text-align: center;
 
@@ -78,7 +82,7 @@
     align-items: center;
 }
 
-#hundene_mine p {
+.hundene_mine p {
     padding: 20px;
     font-size: 20px;
     width: 70%;
@@ -109,6 +113,21 @@
     color: white;
     background-color: rgb(96, 156, 202);
     width: 40%;
-    padding: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 70px;
 }
+
+.tekst h2 {
+    font-size: 30px;
+}
+.tekst p {
+    padding: 20px;
+    font-size: 25px;
+}
+
+
 
