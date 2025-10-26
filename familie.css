@@ -37,14 +37,14 @@
 }
 
 .rad1 {
-    height: 300px;
+    height: 320px;
     display: flex;
     justify-content: center;
     gap: 200px;
 }
 
 .rad2 {
-    height: 300px;
+    height: 320px;
     display: flex;
     justify-content: center;
     gap: 200px;
@@ -52,8 +52,16 @@
 
 .fam {
     width: 200px;
-    height: 250px;
-    border: 4px dotted rgb(96, 156, 202);
-    border-radius: 20px;
+    height: 290px;
+    border: 4px solid rgb(96, 156, 202);
+    text-align: center;
+    
 }
 
+.fam img {
+    padding: 10px;
+}
+
+.fam p {
+    font-size: 18px;
+}
