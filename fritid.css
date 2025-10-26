@@ -130,7 +130,7 @@
 }
 
 #revy {
-    height: 100vh;
+    height: 150vh;
     
 }
 
@@ -140,4 +140,59 @@
     font-size: 50px;
     background-color: rgb(96, 156, 202);
     padding: 30px;
+}
+
+.om_revyen {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px;
+}
+
+.om_revyen img {
+    width: 50%;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.om_revyen > div {
+    padding: 40px;
+}
+
+.om_revyen > div h2 {
+    font-size: 35px;
+    color: rgb(96, 156, 202);
+    padding-bottom: 20px;
+}
+
+.om_revyen > div p {
+    font-size: 25px;
+    color: rgb(96, 156, 202);
+}
+
+.i_revyen {
+    height: 500px;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.i_revyen > div {
+    width: 30%;
+    border-radius: 40px;
+    border: rgb(96, 156, 202) solid 4px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+}
+
+.i_revyen > div img {
+    border-radius: 40px;
+}
+
+.i_revyen > div p {
+    color: rgb(96, 156, 202);
+    padding: 10px;
 }
