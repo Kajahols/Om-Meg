@@ -102,13 +102,13 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    padding: 60px;
 }
 
 .container a {
     width: 30%;
     height: 400px;
     text-align: center; 
-
     position: relative;      
     display: block;          
     overflow: hidden; 
@@ -138,4 +138,19 @@ body {
 
 .container a:hover img {
     transform: scale(1.05);  
+}
+
+.a1 {
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.a2 {
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+.a3 {
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
