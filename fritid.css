@@ -1,0 +1,22 @@
+#dans {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 20px;
+}
+
+.bilder {
+    width: 40%;
+}
+
+.bilder img {
+    margin: 20px;
+}
+
+.tekst {
+    width: 55%;
+    text-align: center;
+    padding: 10px;
+
+}
