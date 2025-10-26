@@ -1,0 +1,49 @@
+table {
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td {
+            border: 1px black solid;
+            padding: 10px;
+            font-size: 20px;
+            
+        }
+
+        .overskrift {
+            background-color: pink;
+            font-weight: bolder;
+        }
+
+        .timer {
+            background-color: lightblue;
+            font-weight: bold;
+        }
+
+        .it {
+            background-color: rgba(150, 235, 150, 0.766);
+        }
+
+        .matte {
+            background-color: rgb(217, 145, 246);
+        }
+
+        .norsk {
+            background-color: rgba(240, 62, 62, 0.63);
+        }
+
+        .re {
+            background-color: rgba(251, 178, 61, 0.756);
+        }
+
+        .historie {
+            background-color: rgb(255, 213, 0);
+        }
+
+        .fysikk {
+            background-color: rgba(96, 96, 208, 0.771);
+        }
+
+        .gym {
+            background-color: lightskyblue;
+        }
