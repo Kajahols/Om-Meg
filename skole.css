@@ -49,6 +49,7 @@
 .fag h2 {
     padding: 10px;
     text-align: center;
+    font-weight: 600;
 }
 
 .fag p {
@@ -71,6 +72,10 @@
     padding: 40px;
     gap: 30px;
     padding-bottom: 100px;
+}
+
+#timeplan h1 {
+    font-weight: 600;
 }
 
 table {

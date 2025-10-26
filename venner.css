@@ -12,6 +12,7 @@ main h1 {
     text-align: center;
     padding: 20px;
     font-size: 50px;
+    font-weight: 600;
     color: rgb(62, 134, 190);
 }
 

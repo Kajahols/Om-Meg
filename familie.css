@@ -19,9 +19,10 @@
 
 #forsiden h1 {
     padding: 20px;
-    font-size: 50px;
+    font-size: 55px;
     color: white;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    font-weight: 500;
 }
 
 #forsiden>div {
@@ -83,6 +84,11 @@
     align-items: center;
 }
 
+.hundene_mine h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
 .hundene_mine p {
     padding: 20px;
     font-size: 20px;
@@ -124,6 +130,7 @@
 
 .tekst h2 {
     font-size: 30px;
+    font-weight: 600;
 }
 .tekst p {
     padding: 20px;
