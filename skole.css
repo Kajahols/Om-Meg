@@ -34,7 +34,34 @@
     display: flex;
     justify-content: space-around;
     gap: 60px;
+    padding: 40px;
 }
+
+.fag {
+    width: 30%;
+    padding: 30px;
+    border: dotted 4px rgb(96, 156, 202);
+    border-radius: 40px;
+    color: rgb(96, 156, 202);
+    
+}
+
+.fag h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.fag p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.fag ul {
+    font-size: 20px;
+    padding: 20px;
+    line-height: 1.8;
+}
+
 
 #timeplan {
     display: flex;
