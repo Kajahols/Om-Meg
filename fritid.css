@@ -3,15 +3,24 @@
     display: flex;
     justify-content: space-around;
     padding: 40px;
-    margin: 20px;
+    gap: 20px;
 }
 
 .bilder {
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 25%;
 }
 
 .bilder img {
-    margin: 20px;
+    width: 80%;
+    border: 6px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .tekst {
