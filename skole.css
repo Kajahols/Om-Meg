@@ -70,6 +70,7 @@
     align-items: center;
     padding: 40px;
     gap: 30px;
+    padding-bottom: 100px;
 }
 
 table {
@@ -121,3 +122,34 @@ table {
         .gym {
             background-color: lightskyblue;
         }
+
+#ai h1 {
+    padding: 20px;
+    font-size: 40px;
+    background-color: rgb(96, 156, 202);
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+#ai > div {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    gap: 100px;
+    padding: 50px;
+}
+
+#ai > div > div {
+    text-align: center;
+    border: dotted 4px rgb(96, 156, 202);
+    border-radius: 30px;
+    padding: 40px;
+    color: rgb(96, 156, 202);
+    font-size: 20px;
+    width: 30%;
+}
+
+#ai img {
+    border-radius: 30px;
+}
