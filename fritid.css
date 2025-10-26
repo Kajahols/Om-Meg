@@ -20,8 +20,51 @@
 }
 
 #generelle_interesser {
-    height: 100vh;
+    text-align: center;
     padding: 40px;
+}
+
+#generelle_interesser h1 {
+    color: rgb(96, 156, 202);
+    font-size: 50px;
+}
+.container {
+    padding: 40px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.container > div {
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    font-size: 20px;
+}
+
+#generelle_interesser img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+#generelle_interesser > div h3 {
+    position: absolute; /* plasserer teksten over bildet */
+    top: 50%;           /* midt på høyden */
+    left: 50%;          /* midt på bredden */
+    transform: translate(-50%, -50%); /* sentrerer perfekt */
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    pointer-events: none; /* slik at teksten ikke blokkerer hover/klikk på bildet */
 }
 
 
@@ -84,4 +127,17 @@
 .tekst p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+#revy {
+    height: 100vh;
+    
+}
+
+#revy h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(96, 156, 202);
+    padding: 30px;
 }
